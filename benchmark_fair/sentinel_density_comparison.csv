@@ -1,0 +1,4 @@
+sentinel_count,sentinel_evaluations,total_classifier_evaluations,coarse_evaluations,binary_refinement_evaluations,full_row_fallback_scans,full_row_fallback_evaluations,periodic_full_row_validations,search_time_seconds,rectangle_time_seconds,dense_mean_grid_agreement,dense_missed_stable_grid_points,dense_false_stable_grid_points,dense_missed_unstable_islands
+3,236,7448,4845,2367,1,40,9,24.891390100005083,0.02140270000381861,1.0,0,0,0
+5,324,7570,4878,2368,2,122,9,25.397705700001097,0.018575399997644126,1.0,0,0,0
+9,498,7779,4910,2371,3,204,9,25.969047000005958,0.01971870000124909,1.0,0,0,0

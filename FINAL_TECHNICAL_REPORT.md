@@ -253,7 +253,7 @@ search time. Compared with expanded interval, boundary-only used 506 more
 calls (about 7.3%) and averaged about 7.0% more search time. Although
 boundary-only made 86 fewer coarse evaluations than expanded interval, its
 additional binary and sentinel evaluations more than offset that difference.
-Fallback and periodic validation work adds further coarse evaluations.
+Fallback and periodic validation evaluations are already included in the reported coarse-evaluation count; their separate diagnostic counts describe where those evaluations came from.
 
 The expanded-interval strategy was the best measured practical strategy for
 this fair G1 benchmark. This is a result for the tested plant and settings,
@@ -480,10 +480,7 @@ intervals for both implementations. All nine cases have exact matches for
 | Synthetic | 256×256 | 454.557 | 63.885 | 7.12× | 7.60× |
 | Synthetic | 256×512 | 493.359 | 131.489 | 3.75× | 3.81× |
 
-For the cached plant maps, the optimized implementation is 1.15× faster on
-G1, approximately 1.82× slower on G5 (the direct mean-time ratio is about
-1.80×; 1.82× is the reciprocal of the rounded 0.55× speedup), and 2.27×
-slower on G6. Its largest measured synthetic end-to-end speedup is 7.12×.
+For the cached plant maps, the optimized implementation is 1.15× faster on G1, approximately 1.80× slower on G5 based on unrounded mean timings (the reciprocal of the displayed rounded 0.55× speedup is approximately 1.82×), and 2.27× slower on G6. Its largest measured synthetic end-to-end speedup is 7.12×.
 
 The original row-intersection implementation benefits from NumPy vectorized
 AND, difference, and run-location operations. On small H, those vectorized

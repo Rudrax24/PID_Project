@@ -1,0 +1,5 @@
+test_case,sentinel_setting,sentinel_count,sentinel_positions,sentinel_evaluations,row_2_fallback,row_2_fallback_reason,periodic_full_row_validations,full_row_fallback_scans,row_2_adaptive_interval_count,dense_reference_interval_count,dense_reference_spacing,dense_false_stable_grid_points,dense_missed_unstable_islands,total_classifier_evaluations
+synthetic narrow unstable island,known_sparse_positions,2,"(0.25, 0.75)",4,False,,1,0,1,2,0.02564102564102564,3,1,296
+synthetic narrow unstable island,3_evenly_spaced,3,default fractions,3,True,unstable_sentinel,1,1,1,2,0.02564102564102564,3,1,323
+synthetic narrow unstable island,5_evenly_spaced,5,default fractions,4,True,unstable_sentinel,1,1,1,2,0.02564102564102564,3,1,324
+synthetic narrow unstable island,9_evenly_spaced,9,default fractions,6,True,unstable_sentinel,1,1,1,2,0.02564102564102564,3,1,326

@@ -1,0 +1,4 @@
+plant,exhaustive_attempted_rows,expanded_attempted_rows,boundary_attempted_rows,common_attempted_rows
+G1: 6/(s+1)(s+2)(s+3),150,150,150,150
+G5: 120/((s+1)...(s+5)),119,119,119,119
+G6: 720/((s+1)...(s+6)),116,116,116,116

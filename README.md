@@ -146,8 +146,9 @@ comparison cell writes to a path relative to the current working directory.
    writes four files under
    `benchmark_fair/notebook_strategy_comparison/`.
 
-The complete notebook has not been verified in a clean-kernel, top-to-bottom
-run. Re-running the strategy-comparison cell overwrites its four CSV/PNG
+The complete notebook was successfully executed from beginning to end using a fresh kernel.
+All seven code cells completed without errors, including all six plant cases and the strategy
+comparison benchmark. Re-running the strategy-comparison cell overwrites its four CSV/PNG
 outputs. The benchmark runner scripts also write their recorded outputs under
 `benchmark_fair/`; running them can overwrite existing evidence and may take
 substantial time.

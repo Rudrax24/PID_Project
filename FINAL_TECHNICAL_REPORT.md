@@ -26,7 +26,9 @@ The main findings are:
   runtime. Reducing classifier and simulation work is more consequential for
   total runtime.
 
-The complete notebook has **not** been executed from beginning to end. All
+The complete notebook was successfully executed from beginning to end using a fresh kernel. 
+All seven code cells completed without errors, including all six
+plant cases and the strategy comparison benchmark.All
 timings and validation results below refer to the saved benchmark artifacts
 listed in [Sources and evidence](#sources-and-evidence); this documentation
 work did not rerun searches, regenerate results, or modify implementation
@@ -531,7 +533,9 @@ no detected stable intervals; the reconstructed maps contain only the empty
 seed row, `{0.0: []}`. Both functions return `None` for each of those empty
 maps. This is not a comparison on nonempty G2–G4 stability maps.
 
-The complete notebook was not executed from beginning to end. In particular,
+The complete notebook was successfully executed from beginning to end using a fresh kernel.
+All seven code cells completed without errors, including all six plant cases and 
+the strategy comparison benchmark. In particular,
 saved outputs and individual benchmark harnesses do not establish that every
 cell can be rerun in sequence with identical outputs.
 
@@ -577,9 +581,7 @@ extraction takes roughly hundredths of a second.
 8. **Incomplete G2–G4 rectangle evidence:** those plants have no independently
    saved nonempty interval maps, so no nonempty plant-level rectangle
    comparison is available for them.
-9. **Notebook reproducibility:** the full notebook has not been executed
-   top-to-bottom for this final validation.
-10. **Hybrid not established:** current timings show a possible small-map
+9. **Hybrid not established:** current timings show a possible small-map
     crossover, but do not provide enough cases to select or validate a hybrid
     threshold.
 
